@@ -16,7 +16,7 @@
     };
   
     const fragment = document.createDocumentFragment();
-    for (let i = 0; i < 300; i++) fragment.appendChild(createStar());
+    for (let i = 0; i < 120; i++) fragment.appendChild(createStar());
     stars.appendChild(fragment);
   })();
   
